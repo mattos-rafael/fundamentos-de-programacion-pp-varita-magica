@@ -28,8 +28,8 @@ for (const img of imagenes){
 
 for (const p of parrafos){
   p.addEventListener("click", () => {
-    p.style.color = "red"
-    p.style.backgroundColor = "yellow"
+    p.style.color = `${getRandom(colors)}`
+    p.style.backgroundColor = `${getRandom(colors)}`
   })
 }
 
@@ -43,8 +43,8 @@ for (const articSection of artSect){
 
 for (const p of parrafos) {
   p.addEventListener('mouseover', ()=>{
-    p.style.color = 'yellow'
-    p.style.backgroundColor = 'red'
+    p.style.color = `${getRandom(colors)}`
+    p.style.backgroundColor = `${getRandom(colors)}`
 })
   p.addEventListener('mouseout', ()=>{
     p.style.color = 'black'
@@ -75,7 +75,7 @@ for (const art of artSect) {
 }
 
 
-//Ejercicio 4 (Antonio)
+//Ejercicio 4
 
 
 function getRandom(colors){
@@ -87,4 +87,4 @@ console.log(getRandom(colors))
 
 //Ejercicio 5
 
-//Ejercicio 6 (Antonio)
+//Ejercicio 6
